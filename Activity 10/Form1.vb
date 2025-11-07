@@ -1,7 +1,7 @@
 ﻿Imports System.IO
 
 Public Class Form1
-    Private Sub btnSaveSort_Click(sender As Object, e As EventArgs) Handles btnSaveSort.Click
+    Private Sub btnSaveSort_Click(sender As Object, e As EventArgs)
         Try
             Dim input As String = txtNumbers.Text
 
